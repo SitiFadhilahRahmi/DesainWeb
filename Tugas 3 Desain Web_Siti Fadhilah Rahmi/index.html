@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="picture2.jpeg">
+
+</head>
+<body>
+    <nav>
+        <div class="nav_content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>   
+            <div class="logo"><a href="#">FADH_</a></div>
+        </div>     
+    </nav>
+    <section class="section">
+        <div class="section_container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    WELCOME TO MY PAGE
+                </h1>
+                <p>I HOPE YOU LIKE IT</p>
+            </div>
+            <div class="image">
+                <img src="pic-removebg-preview.png" alt="profile">
+            </div>
+        </div>
+    </section>
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(error => {
+              console.log('Service Worker registration failed:', error);
+            });
+        }
+        
+      </script>
+      
+    
+</body>
+</html>
