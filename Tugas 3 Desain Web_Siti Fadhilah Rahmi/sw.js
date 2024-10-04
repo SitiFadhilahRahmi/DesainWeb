@@ -7,12 +7,13 @@ const urlsToCache = [
   '/about.html',
   '/contactus.html',
   '/offline.html',
-  '/style.css',           // Tambahkan semua file CSS
-  '/contact.css',         // Jika ada CSS lain
-  '/pic-removebg-preview.png', // Gambar yang digunakan di halaman
-  '/background web.jpg', // Gambar yang digunakan di halaman
+  '/style.css',           
+  '/contact.css',         
+  '/pic-removebg-preview.png', 
+  '/background web.jpg', 
   '/offline.jpg',
-  '/picture2.jpeg'        // Gambar lain yang digunakan
+  '/dinobaca.jpg',
+  '/picture2.jpeg'        
 ];
 
 // Install service worker dan cache aset
